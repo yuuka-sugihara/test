@@ -1,0 +1,130 @@
+.logo img{
+    margin-bottom: 0;
+}
+
+
+ul.topnav {
+	overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+	list-style-type: none;
+	background-color: black;
+}
+ul.topnav li {
+	float: left;
+}
+ul.topnav li a {
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+ul.topnav li a:hover{
+	background-color: #a9bce2;
+}
+
+@media screen and (max-width: 480px) {
+	ul.topnav li.right, ul.topnav li {
+		float: none;
+	}
+}
+
+
+.wrapper{
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+
+article{
+    border-top: 3px solid blue;
+    border-right: 3px solid blue;
+    border-bottom: 3px solid blue;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+
+    
+}
+h1{
+    border-left: 7px solid black;
+    border-bottom: 3px solid black;
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+.book img{
+    width: 100%;
+}
+
+.box{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.box img{
+    width: 300px;
+    margin: 20px 10px -10px 10px;
+}
+
+.box .box_pic2{
+    display: inline-block;
+}
+aside{
+    width: 40%;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-bottom: 3px solid red;
+    margin-bottom: 0;
+}
+h3{
+    padding-left: 10px;
+    padding-top: 40px;
+    border-bottom: 3px solid gray;
+    margin-top: 0px;
+}
+nav{
+    text-align:left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    line-height: 1.5rem;
+    min-width: 90px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+nav ul li .current a{
+    color: #F33135
+}
+nav ul li a:hover{
+    color: #a9bce2;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer{
+    clear: left;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    bottom: 0; 
+}
+
+

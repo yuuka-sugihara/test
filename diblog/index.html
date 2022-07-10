@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>diblog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.abc').bxSlider({
+                auto:true,
+                mode:'horizontal',
+                speed:2000,
+                slideWidth:1500
+            });
+        });
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div class="logo">
+            <img src="diblog_logo.jpg">
+        </div>
+        
+        <header>
+            <ul class="topnav">
+                <li><a ref="#item">トップ</a></li>
+                <li><a ref="item">プロフィール</a></li>
+                <li><a href="#item">D.I.Blogについて</a></li>
+                <li><a href="#item">登録フォーム</a></li>
+                <li><a href="item">問い合わせ</a></li>
+                <li><a href="item">その他</a></li>
+            </ul>
+        </header>
+        
+        <div class="contents wrapper">
+            <article>
+                <br>
+                <h1>プログラミングに役立つ書籍</h1>
+                <p>2017年1月15日</p>
+                <div class="book">
+                    <div class="abc">
+                        <div><img src="jQuery_image1.jpg"></div>
+                        <div><img src="jQuery_image2.jpg"></div>
+                        <div><img src="jQuery_image3.jpg"></div>
+                        <div><img src="jQuery_image4.jpg"></div>
+                        <div><img src="jQuery_image5.jpg"></div>
+                    </div>
+                    <div class="logo">
+                    </div>
+                </div>
+                <p>D.I.BlogはD.I.Wroksが提供する演習課題です。</p>
+                <p>記事中身</p>
+                
+                <div class="box">
+                    <div class="box_pic2">
+                        <img src="pic1.jpg">
+                        <p>ドメインの取得方法</p>
+                    </div>
+                    <div class="box_pic2">
+                        <img src="pic2.jpg">
+                        <p>快適な職場環境</p>
+                    </div>
+                    <div class="box_pic2">
+                        <img src="pic3.jpg">
+                        <p>Linuxの基礎</p>
+                    </div>
+                    <div class="box_pic2">
+                        <img src="pic4.jpg">
+                        <p>マーケティング入門</p>
+                    </div>
+                    <div class="box_pic2">
+                        <img src="pic5.jpg">
+                        <p>アクティブラーニング</p>
+                    </div>
+                    <div class="box_pic2">
+                        <img src="pic6.jpg">
+                        <p>CSSの効果的な勉強方法</p>
+                    </div>
+                    <div class="box_pic2">
+                        <img src="pic7.jpg">
+                        <p>リーダブルコードとは</p>
+                    </div>
+                    <div class="box_pic2">
+                        <img src="pic8.jpg">
+                        <p>HTML5の可能性</p>
+                    </div>
+                </div>
+            </article>
+            
+            <aside>
+                <h3>人気の記事</h3>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="#" title="Item 1">PHPオススメ本</a></li>
+                        <li><a href="#" title="Item 1">PHP MyAsminの使い方</a></li>
+                        <li><a href="#" title="Item 1">いま人気のエディタTops</a></li>
+                        <li><a href="#" title="Item 1">HTMLの基礎</a></li>
+                    </ul>
+                </nav>
+                
+                <h3>オススメリンク</h3>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="#" title="Item 1">ディーアイワークス株式会社　</a></li>
+                        <li><a href="#" title="Item 1">XAMPPのダウンロード</a></li>
+                        <li><a href="#" title="Item　1">Eclipseのダウンロード</a></li>
+                        <li><a href="#" title="Item 1">Braketsのダウンロード</a></li>
+                    </ul>
+                </nav>
+                
+                <h3>カテゴリ</h3>
+                <nav>
+                    <ul>
+                        <li class="current"><a href="#" title="Item 1">HTML</a></li>
+                        <li><a href="#" title="Item 1">PHP</a></li>
+                        <li><a href="#" title="Item 1">MySQL</a></li>
+                        <li><a href="#" title="Item 1">JavaScript</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <footer>
+                <p>Copynright D.I.Works D.I.Brog is the one whichp rovides
+            A to Z about programming</p>
+            </footer>
+        
+        </div>
+    </body>
+</html>
